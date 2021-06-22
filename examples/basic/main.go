@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	_ = notion.NewClient()
-	fmt.Println("Hey")
+	client := notion.NewClient()
+	fmt.Println("Hey client is", client)
 }
